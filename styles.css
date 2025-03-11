@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  ul,
+  li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    min-height: 100%;
+    font-size: 30px;
+    background: rgb(213, 214, 206);
+  }
+
+  .task-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 5px;
+    background: rgb(128, 136, 69);
+  }
+
+  .form-element-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+  }
+
+  .form-element-wrapper > label {
+    font-size: 15px;
+  }
+
+  #add_button_id {
+    font-size: 20px;
+    border-radius: 5px;
+    background: rgb(78, 117, 201);
+  }
+
+  .result-block {
+    display: flex;
+    opacity: 0;
+    background: rgb(221, 237, 106);
+  }
